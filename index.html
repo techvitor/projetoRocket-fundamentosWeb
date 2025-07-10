@@ -7,7 +7,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assistente de Meta</title>
     <link rel="stylesheet" href="./style.css">
     
 </head>
@@ -27,7 +27,7 @@
 
                 <select id="gameSelect">
                     <option value="">Selecione um jogo</option>
-                    <option value="lol">League of Legends</option>
+                    <option value="league-of-legends">League of Legends</option>
                     <option value="valorant">Valorant</option>
                 </select>
                 <input id="questionField" type="text" placeholder="Ex: Melhor build para ADC..">
@@ -35,7 +35,7 @@
                 <button id="askButton" type="submit">
                     Perguntar
                 </button>
-                <div id="aiResponse">
+                <div id="aiResponse" class="hidden">
                     <div class="response-content">
                     </div>
                 </div>
@@ -43,6 +43,7 @@
         </div>
     </section>
 </main>
+    <script src="  https://unpkg.com/showdown/dist/showdown.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

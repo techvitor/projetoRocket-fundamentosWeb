@@ -22,6 +22,8 @@
 - Protocol
   - Protocolo
   - Conjunto de regras 
+- Methods HTTP: Get, Post, Patch/Put, Delete
+- Headers: Instruções extra para cada chamada  
 
 
 # URL
@@ -94,3 +96,24 @@ De um arquivo que terá na sua sintaxe, declarações, propriedades e valores. A
 - Document
 - Object
 - Model
+
+# API 
+- Application
+- Programming
+- Interface
+- JSON: JavaScript Object Notation
+
+# LLM
+- Large
+- Language
+- Model 
+- Gemini, OpenAI, Anthropic 
+
+# Agents AI
+- Tools (ferramentas): permitem uso do código, ou apps, ou qualquer informação extra
+- Melhor contexto 
+
+## Engenharia de prompt 
+- One shot: uma única pergunta sem muito contexto 
+- Few shot: é apresentado exemplos do que se espera
+- Chain of thought: Cadeia de pensamento para a IA responder gradativamente conforme a instrução 
